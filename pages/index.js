@@ -159,8 +159,7 @@ export default function Home() {
                       <BsWordpress className='text-cyan-800' />
    
                 </div>
-                   <br />
-                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://23821475.it.scu.edu.au/">Site</a>
+                 
                 
             </div>
           </div>
