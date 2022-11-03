@@ -8,6 +8,7 @@ import {IoLogoNodejs} from 'react-icons/io'
 import Image from 'next/image';
 import avtar from '../public/avtar.png';
 import starbucks from'../public/starbucks.png';
+import bot from '../public/bot.png'
 import nfc from '../public/nfc.png';
 import {SiNfc,SiGmail} from 'react-icons/si';
 import thissite from '../public/thissite.png';
@@ -37,7 +38,7 @@ export default function Home() {
             <li>
               <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' />
               </li>
-            <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://docs.google.com/document/d/1aEBr-Oz3zcxs2OVWXOLFUXeM45_h5FVA/edit?usp=sharing&ouid=100208694494661288013&rtpof=true&sd=true">Resume</a></li>
+            <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://drive.google.com/file/d/1DxeeZLYt1NvwfNCeCWlBogCG-NLJRgXp/view?usp=sharing">Resume</a></li>
           </ul>
          </nav>
          <div className='flex justify-start mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-100 mt-20 overflow-hidden md:h-96 md:w-96'>
@@ -77,10 +78,10 @@ export default function Home() {
          </div>
         </section>
         <section>
-          <div className='text-center p-10'>
+          <div className='text-center  p-10'>
            <h3 className='text-4xl  dark:text-white'>Projects</h3> 
           </div>
-          <div className='lg:flex gap-10 '>
+          <div className=' gap-8  '>
             <div className='text-center  shadow-2xl p-8 rounded-xl my-10 dark:bg-white'>
               <Image src={starbucks} width={250} height={200} />
               <h2 className='text-xl font-medium pt-8 pb-2'>Starbucks Homepage Clone</h2>
@@ -96,8 +97,24 @@ export default function Home() {
                 <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://starbuck-clone-bhuwan.netlify.app/">Site</a>
                 <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://github.com/bhuwanaryal0202/starbucks_clone">Code</a>
             </div>
+            <div className='text-center  shadow-2xl p-8 rounded-xl my-10 dark:bg-white'>
+              <Image src={bot} width={250} height={200} />
+              <h2 className='text-xl font-medium pt-8 pb-2'>Chat Bot</h2>
+              <p>
+                HTML, CSS and JavaScript only used simple chat bot</p>
+                <h4 className='py-4 font-bold text-black'>Tools I use</h4>
+                <div className='text-5xl flex justify-center gap-5 py-3 '>
+                      <AiFillHtml5 className='text-orange-600'/>
+                      <DiCss3 className='text-blue-800' />
+                      <SiJavascript className='text-yellow-500'/>
+   
+                </div>
+                   <br />
+                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://htmlcssjsonlychatbot.netlify.app">Site</a>
+                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://github.com/bhuwanaryal0202/HTML_CSS_JS-ChatBot">Code</a>
+            </div>
             <div className='text-center  shadow-2xl p-8 rounded-xl my-10 dark:bg-white' >
-              <Image src={nfc} width={100} height={150} />
+              <Image src={nfc} width={250} height={200} />
               <h2 className='text-xl font-medium pt-8 pb-2'>NFC Business Card</h2>
               <p>
                Made simple mobile view site and embede into NFC card, and using as personal linktree.  </p>
