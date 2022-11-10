@@ -141,7 +141,7 @@ export default function Home() {
                 </div>
                    <br />
                 <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://bhuwanaryal0202.github.io/">Site</a>
-                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://github.com/bhuwanaryal0202/bhuwanaryal0202.github.io">Code</a>
+                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://socialcard-bhuwan-aryal.netlify.app/">Code</a>
             </div>
             <div className='text-center  shadow-2xl p-8 rounded-xl my-10 dark:bg-white' >
               <Image className='shadow-md' src={thissite} width={250} height={200} />
