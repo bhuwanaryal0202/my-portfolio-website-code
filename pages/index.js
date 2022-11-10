@@ -15,7 +15,8 @@ import thissite from '../public/thissite.png';
 import autocare from '../public/autocare.png';
 import {BsWordpress} from 'react-icons/bs';
 import {useState} from 'react';
-import face from '../public/face.png'
+import face from '../public/face.png';
+import movie from '../public/movie.png';
 
 
 
@@ -38,7 +39,7 @@ export default function Home() {
             <li>
               <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' />
               </li>
-            <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://drive.google.com/file/d/1icSwEQxE8mlvZXYvxx9h776NWr1j5Vvq/view?usp=sharing">Resume</a></li>
+            <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://drive.google.com/file/d/1kG7tnCFy6LVVC9AznsbksBEaaMA2T8KE/view?usp=sharing">Resume</a></li>
           </ul>
          </nav>
          <div className='flex justify-start mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-100 mt-20 overflow-hidden md:h-96 md:w-96'>
@@ -81,12 +82,27 @@ export default function Home() {
           <div className='text-center  p-10'>
            <h3 className='text-4xl  dark:text-white'>Projects</h3> 
           </div>
-          <div className=' gap-8  '>
+          <div className=' flex flex-wrap gap-8 px-5 '>
+
+          <div className='text-center  shadow-2xl p-8 rounded-xl my-10 dark:bg-white'>
+              <Image src={movie} width={250} height={200} />
+              <h2 className='text-xl font-medium pt-8 pb-2'>Movie Check App</h2>
+              
+                <h4 className='py-4 font-bold text-black'>Tools I use</h4>
+                <div className='text-5xl flex justify-center gap-5 py-3 '>
+                      <AiFillHtml5 className='text-orange-600'/>
+                      <DiCss3 className='text-blue-800' />
+                      <SiJavascript className='text-yellow-500'/>
+   
+                </div>
+                   <br />
+                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://movie-check-app.netlify.app">Site</a>
+                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://github.com/bhuwanaryal0202/Movie_Check_app">Code</a>
+            </div>
             <div className='text-center  shadow-2xl p-8 rounded-xl my-10 dark:bg-white'>
               <Image src={starbucks} width={250} height={200} />
               <h2 className='text-xl font-medium pt-8 pb-2'>Starbucks Homepage Clone</h2>
-              <p>
-                A UI Clone Starbucks Desktop Homepage. </p>
+              
                 <h4 className='py-4 font-bold text-black'>Tools I use</h4>
                 <div className='text-5xl flex justify-center gap-5 py-3 '>
                       <AiFillHtml5 className='text-orange-600'/>
@@ -100,8 +116,7 @@ export default function Home() {
             <div className='text-center  shadow-2xl p-8 rounded-xl my-10 dark:bg-white'>
               <Image src={bot} width={250} height={200} />
               <h2 className='text-xl font-medium pt-8 pb-2'>Chat Bot</h2>
-              <p>
-                HTML, CSS and JavaScript only used simple chat bot</p>
+              
                 <h4 className='py-4 font-bold text-black'>Tools I use</h4>
                 <div className='text-5xl flex justify-center gap-5 py-3 '>
                       <AiFillHtml5 className='text-orange-600'/>
@@ -116,8 +131,7 @@ export default function Home() {
             <div className='text-center  shadow-2xl p-8 rounded-xl my-10 dark:bg-white' >
               <Image src={nfc} width={250} height={200} />
               <h2 className='text-xl font-medium pt-8 pb-2'>NFC Business Card</h2>
-              <p>
-               Made simple mobile view site and embede into NFC card, and using as personal linktree.  </p>
+              
                 <h4 className='py-4 font-bold text-black'>Tools I use</h4>
                 <div className='text-5xl flex justify-center gap-5 py-3 '>
                       <AiFillHtml5 className='text-orange-600'/>
@@ -132,8 +146,7 @@ export default function Home() {
             <div className='text-center  shadow-2xl p-8 rounded-xl my-10 dark:bg-white' >
               <Image className='shadow-md' src={thissite} width={250} height={200} />
               <h2 className='text-xl font-medium pt-8 pb-2'>Portfolio Website</h2>
-              <p>
-                Code of this Portfolio website </p>
+              
                 <h4 className='py-4 font-bold text-black'>Tools I use</h4>
                 <div className='text-5xl flex justify-center gap-5 py-3 '>
                       
@@ -147,20 +160,15 @@ export default function Home() {
             </div>
             <div className='text-center  shadow-2xl p-8 rounded-xl my-10 dark:bg-white'>
               <Image src={autocare} width={250} height={200} />
-              <h2 className='text-xl font-medium pt-8 pb-2'>E-Commerce Website Build for Autocare Shop</h2>
-              <p>
-                  •	Design the e-commerce website using technology like HTML, CSS, and JS in WordPress themes. <br />
-                  
-                 </p>
+              <h2 className='text-xl font-medium pt-8 pb-2'>E-Commerce Website </h2>
+              
                 <h4 className='py-4 font-bold text-black'>Tools I use</h4>
                 <div className='text-5xl flex justify-center gap-5 py-3 '>
                       <AiFillHtml5 className='text-orange-600'/>
                       <DiCss3 className='text-blue-800' />
                       <BsWordpress className='text-cyan-800' />
    
-                </div>
-                 
-                
+                </div> 
             </div>
           </div>
           <div className='text-center p-10' >
