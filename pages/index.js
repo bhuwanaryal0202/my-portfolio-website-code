@@ -82,7 +82,7 @@ export default function Home() {
           <div className='text-center  p-10'>
            <h3 className='text-4xl  dark:text-white'>Projects</h3> 
           </div>
-          <div className=' flex flex-wrap gap-6  '>
+          <div className=' flex align-middle flex-wrap gap-8 p-5 '>
 
           <div className='text-center  shadow-2xl p-8 rounded-xl my-10 dark:bg-white'>
               <Image src={movie} width={250} height={200} />
