@@ -17,6 +17,7 @@ import {BsWordpress} from 'react-icons/bs';
 import {useState} from 'react';
 import face from '../public/face.png';
 import movie from '../public/movie.png';
+import webapp from '../public/webapp.png';
 
 
 
@@ -98,6 +99,19 @@ export default function Home() {
                    <br />
                 <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://movie-check-app.netlify.app">Site</a>
                 <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://github.com/bhuwanaryal0202/Movie_Check_app">Code</a>
+            </div>
+            <div className='text-center  shadow-2xl p-8 rounded-xl my-10 dark:bg-white'>
+              <Image src={webapp} width={250} height={200} />
+              <h2 className='text-xl font-medium pt-8 pb-2'>Request form Web app</h2>
+              
+                <h4 className='py-4 font-bold text-black'>Tools I use</h4>
+                <div className='text-5xl flex justify-center gap-5 py-3 '>
+                    <DiReact className='text-blue-400' />
+   
+                </div>
+                   <br />
+                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://brocolli.netlify.app/">Site</a>
+                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://github.com/bhuwanaryal0202/Broccoli-coAPP">Code</a>
             </div>
             <div className='text-center  shadow-2xl p-8 rounded-xl my-10 dark:bg-white'>
               <Image src={starbucks} width={250} height={200} />
